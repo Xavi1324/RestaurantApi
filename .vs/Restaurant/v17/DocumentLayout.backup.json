@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyecto\\Restaurant\\Restaurant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.domain\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|solutionrelative:restaurant.core.domain\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE49028-E7AC-43B9-884F-7515959B4D74}|Restaurant.Core.Application\\Restaurant.Core.Application.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.application\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BE49028-E7AC-43B9-884F-7515959B4D74}|Restaurant.Core.Application\\Restaurant.Core.Application.csproj|solutionrelative:restaurant.core.application\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Common\\Class1.cs",
+              "RelativeDocumentMoniker": "Restaurant.Core.Domain\\Common\\Class1.cs",
+              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Common\\Class1.cs",
+              "RelativeToolTip": "Restaurant.Core.Domain\\Common\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T22:03:04.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Application\\Interfaces\\Class1.cs",
+              "RelativeDocumentMoniker": "Restaurant.Core.Application\\Interfaces\\Class1.cs",
+              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Application\\Interfaces\\Class1.cs",
+              "RelativeToolTip": "Restaurant.Core.Application\\Interfaces\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T22:02:59.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
