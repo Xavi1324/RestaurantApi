@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Proyecto\\Restaurant\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.domain\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|solutionrelative:restaurant.core.domain\\common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52077B89-5618-440F-ADA9-B0CABE32D001}|Restaurant.Infrastructure.Persistence\\Restaurant.Infrastructure.Persistence.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.infrastructure.persistence\\context\\restaurantapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52077B89-5618-440F-ADA9-B0CABE32D001}|Restaurant.Infrastructure.Persistence\\Restaurant.Infrastructure.Persistence.csproj|solutionrelative:restaurant.infrastructure.persistence\\context\\restaurantapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE49028-E7AC-43B9-884F-7515959B4D74}|Restaurant.Core.Application\\Restaurant.Core.Application.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.application\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BE49028-E7AC-43B9-884F-7515959B4D74}|Restaurant.Core.Application\\Restaurant.Core.Application.csproj|solutionrelative:restaurant.core.application\\interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.domain\\entities\\dish\\dishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|solutionrelative:restaurant.core.domain\\entities\\dish\\dishes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.domain\\entities\\order\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|solutionrelative:restaurant.core.domain\\entities\\order\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|c:\\proyecto\\restaurant\\restaurant\\restaurant.core.domain\\entities\\table\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E30924-EC05-41AA-BEF4-6DDD981E93F3}|Restaurant.Core.Domain\\Restaurant.Core.Domain.csproj|solutionrelative:restaurant.core.domain\\entities\\table\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Common\\Class1.cs",
-              "RelativeDocumentMoniker": "Restaurant.Core.Domain\\Common\\Class1.cs",
-              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Common\\Class1.cs",
-              "RelativeToolTip": "Restaurant.Core.Domain\\Common\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Entities\\Order\\Orders.cs",
+              "RelativeDocumentMoniker": "Restaurant.Core.Domain\\Entities\\Order\\Orders.cs",
+              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Entities\\Order\\Orders.cs",
+              "RelativeToolTip": "Restaurant.Core.Domain\\Entities\\Order\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:03:04.831Z",
+              "WhenOpened": "2025-03-15T06:32:01.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Application\\Interfaces\\Class1.cs",
-              "RelativeDocumentMoniker": "Restaurant.Core.Application\\Interfaces\\Class1.cs",
-              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Application\\Interfaces\\Class1.cs",
-              "RelativeToolTip": "Restaurant.Core.Application\\Interfaces\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Dishes.cs",
+              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Entities\\Dish\\Dishes.cs",
+              "RelativeDocumentMoniker": "Restaurant.Core.Domain\\Entities\\Dish\\Dishes.cs",
+              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Entities\\Dish\\Dishes.cs",
+              "RelativeToolTip": "Restaurant.Core.Domain\\Entities\\Dish\\Dishes.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBQAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T22:02:59.756Z",
+              "WhenOpened": "2025-03-15T06:30:55.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tables.cs",
+              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Entities\\Table\\Tables.cs",
+              "RelativeDocumentMoniker": "Restaurant.Core.Domain\\Entities\\Table\\Tables.cs",
+              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Core.Domain\\Entities\\Table\\Tables.cs",
+              "RelativeToolTip": "Restaurant.Core.Domain\\Entities\\Table\\Tables.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:27:03.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RestaurantApiContext.cs",
+              "DocumentMoniker": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Infrastructure.Persistence\\Context\\RestaurantApiContext.cs",
+              "RelativeDocumentMoniker": "Restaurant.Infrastructure.Persistence\\Context\\RestaurantApiContext.cs",
+              "ToolTip": "C:\\Proyecto\\Restaurant\\Restaurant\\Restaurant.Infrastructure.Persistence\\Context\\RestaurantApiContext.cs",
+              "RelativeToolTip": "Restaurant.Infrastructure.Persistence\\Context\\RestaurantApiContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAGAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:31:03.63Z",
               "EditorCaption": ""
             }
           ]

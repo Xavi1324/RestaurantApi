@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Restaurant.Core.Application.Interfaces
+namespace Restaurant.Core.Domain.Entities.Enums
 {
-    class Class1
+    public enum TableStatus
     {
+        Available,
+        InService,
+        Served
     }
 }
