@@ -1,0 +1,6 @@
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Infrastructure.Persistence\obj\Debug\net8.0\Restaurant.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Infrastructure.Persistence\obj\Debug\net8.0\Restaurant.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Infrastructure.Persistence\obj\Debug\net8.0\Restaurant.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Infrastructure.Persistence\obj\Debug\net8.0\Restaurant.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Infrastructure.Persistence\obj\Debug\net8.0\Restaurant.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Infrastructure.Persistence\obj\Debug\net8.0\Restaurant.Infrastructure.Persistence.sourcelink.json

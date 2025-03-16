@@ -1,12 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Restaurant.Core.Application.Interfaces.IRepositories;
+using Restaurant.Core.Application.Interfaces.IRepositories.Dish;
+using Restaurant.Core.Application.Interfaces.IRepositories.DishesIngredient;
+using Restaurant.Core.Application.Interfaces.IRepositories.Ingredient;
+using Restaurant.Core.Application.Interfaces.IRepositories.Order;
+using Restaurant.Core.Application.Interfaces.IRepositories.OrderDishes;
+using Restaurant.Core.Application.Interfaces.IRepositories.Table;
 using Restaurant.Infrastructure.Persistence.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Restaurant.Infrastructure.Persistence.Repositories;
+using Restaurant.Infrastructure.Persistence.Repositories.Dish;
+using Restaurant.Infrastructure.Persistence.Repositories.DishesIngredient;
+using Restaurant.Infrastructure.Persistence.Repositories.Ingredient;
+using Restaurant.Infrastructure.Persistence.Repositories.Order;
+using Restaurant.Infrastructure.Persistence.Repositories.OrderDishes;
+using Restaurant.Infrastructure.Persistence.Repositories.Table;
 
 namespace Restaurant.Infrastructure.Persistence
 {
@@ -25,6 +34,17 @@ namespace Restaurant.Infrastructure.Persistence
                 services.AddDbContext<RestaurantApiContext>(options =>
                 options.UseSqlServer(connectionString, m => m.MigrationsAssembly(typeof(RestaurantApiContext).Assembly.FullName)));
             }
+
+            #region Repositories dependencies injection
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<IDishesServices, DishesRepository>();
+            services.AddTransient<IDishIngredientServices, DishIngredientRepository>();
+            services.AddTransient<IIngredientServices, IngredientRepository>();
+            services.AddTransient<IOrderServices, OrderRepository>();
+            services.AddTransient<IOrdersDishServices, OrdersDishRepository>();
+            services.AddTransient<ITableServices, TableRepository>();
+
+            #endregion
 
         }
     }

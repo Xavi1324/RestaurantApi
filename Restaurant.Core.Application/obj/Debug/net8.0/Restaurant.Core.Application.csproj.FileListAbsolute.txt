@@ -1,0 +1,6 @@
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Core.Application\obj\Debug\net8.0\Restaurant.Core.Application.csproj.AssemblyReference.cache
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Core.Application\obj\Debug\net8.0\Restaurant.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Core.Application\obj\Debug\net8.0\Restaurant.Core.Application.AssemblyInfoInputs.cache
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Core.Application\obj\Debug\net8.0\Restaurant.Core.Application.AssemblyInfo.cs
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Core.Application\obj\Debug\net8.0\Restaurant.Core.Application.csproj.CoreCompileInputs.cache
+C:\Proyecto\Restaurant\Restaurant\Restaurant.Core.Application\obj\Debug\net8.0\Restaurant.Core.Application.sourcelink.json

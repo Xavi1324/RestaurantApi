@@ -4,11 +4,6 @@ using Restaurant.Core.Domain.Entities.Ingredient;
 using Restaurant.Core.Domain.Entities.Order;
 using Restaurant.Core.Domain.Entities.Relations;
 using Restaurant.Core.Domain.Entities.Table;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Restaurant.Infrastructure.Persistence.Context
 {
@@ -17,8 +12,10 @@ namespace Restaurant.Infrastructure.Persistence.Context
         public RestaurantApiContext(DbContextOptions<RestaurantApiContext> options) : base(options) {}
 
         public DbSet<Dishes> Dishes { get; set; }
+        public DbSet<DishIngredient> DishIngredients { get; set; }
         public DbSet<Ingredients> Ingredients { get; set; }
         public DbSet<Orders> Orders { get; set; }
+        public DbSet<OrderDish> OrderDishes { get; set; }
         public DbSet<Tables> Tables { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
