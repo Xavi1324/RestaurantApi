@@ -1,6 +1,9 @@
-﻿namespace Restaurant.Core.Application.Interfaces.IServices.Order
+﻿using Restaurant.Core.Application.ViewModels.Order;
+using Restaurant.Core.Domain.Entities.Order;
+
+namespace Restaurant.Core.Application.Interfaces.IServices.Order
 {
-    public interface IOrderServices
+    public interface IOrderServices : IGenericService<SaveOrderViewModel, OrderViewModel, Orders>
     {
 
     }

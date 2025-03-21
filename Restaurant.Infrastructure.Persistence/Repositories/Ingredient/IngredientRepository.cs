@@ -4,7 +4,7 @@ using Restaurant.Infrastructure.Persistence.Context;
 
 namespace Restaurant.Infrastructure.Persistence.Repositories.Ingredient
 {
-    public class IngredientRepository : GenericRepository<Ingredients> ,IIngredientServices
+    public class IngredientRepository : GenericRepository<Ingredients> , IIngredientRepository
     {
         private readonly RestaurantApiContext _context;
         public IngredientRepository(RestaurantApiContext context) : base(context)

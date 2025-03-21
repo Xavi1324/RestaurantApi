@@ -2,7 +2,7 @@
 
 namespace Restaurant.Core.Application.Interfaces.IRepositories.Ingredient
 {
-    public interface IIngredientServices : IGenericRepository<Ingredients>
+    public interface IIngredientRepository : IGenericRepository<Ingredients>
     {
     }
 }

@@ -4,7 +4,7 @@ using Restaurant.Infrastructure.Persistence.Context;
 
 namespace Restaurant.Infrastructure.Persistence.Repositories.Table
 {
-    public class TableRepository : GenericRepository<Tables> , ITableServices
+    public class TableRepository : GenericRepository<Tables> , ITableRepository
     {
         private readonly RestaurantApiContext _context;
         public TableRepository(RestaurantApiContext context) : base(context)

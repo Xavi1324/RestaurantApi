@@ -13,10 +13,11 @@ namespace Restaurant.Infrastructure.Persistence.Repositories
             _context = context;
         }
 
-        public virtual async Task AddAsync(Entity entity)
+        public virtual async Task<Entity> AddAsync(Entity entity)
         {
             await _context.Set<Entity>().AddAsync(entity);
             await _context.SaveChangesAsync();
+            return entity;
         }
 
         public virtual async Task DeleteAsync(Entity entity)
@@ -25,9 +26,10 @@ namespace Restaurant.Infrastructure.Persistence.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public virtual async Task EditAsync(Entity entity)
+        public virtual async Task EditAsync(Entity entity, int id)
         {
-            _context.Entry(entity).State = EntityState.Modified;
+            Entity entityToUpdate = await _context.Set<Entity>().FindAsync(id);
+            _context.Entry(entityToUpdate).CurrentValues.SetValues(entity);
             await _context.SaveChangesAsync();
         }
 

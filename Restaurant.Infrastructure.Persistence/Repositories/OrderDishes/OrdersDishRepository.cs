@@ -5,7 +5,7 @@ using Restaurant.Core.Domain.Entities.Relations;
 using Restaurant.Infrastructure.Persistence.Context;
 namespace Restaurant.Infrastructure.Persistence.Repositories.OrderDishes
 {
-    public class OrdersDishRepository : GenericRepository<OrderDish>, IOrdersDishServices
+    public class OrdersDishRepository : GenericRepository<OrderDish>, IOrdersDishRepository
     {
         private readonly RestaurantApiContext _context;
         public OrdersDishRepository(RestaurantApiContext context) : base(context)

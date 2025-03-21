@@ -2,7 +2,7 @@
 
 namespace Restaurant.Core.Application.Interfaces.IRepositories.Table
 {
-    public interface ITableServices : IGenericRepository<Tables>
+    public interface ITableRepository : IGenericRepository<Tables>
     {
     }
 }

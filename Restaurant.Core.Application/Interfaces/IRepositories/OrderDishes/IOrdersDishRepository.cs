@@ -3,7 +3,7 @@ using Restaurant.Core.Domain.Entities.Relations;
 
 namespace Restaurant.Core.Application.Interfaces.IRepositories.OrderDishes
 {
-    public interface IOrdersDishServices : IGenericRepository<OrderDish>
+    public interface IOrdersDishRepository : IGenericRepository<OrderDish>
     {
         Task<List<Dishes>> GetDishesByOrderIdAsync(int orderId);
     }

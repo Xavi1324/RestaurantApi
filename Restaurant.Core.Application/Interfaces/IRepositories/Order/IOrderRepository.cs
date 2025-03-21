@@ -2,7 +2,7 @@
 
 namespace Restaurant.Core.Application.Interfaces.IRepositories.Order
 {
-    public interface IOrderServices : IGenericRepository<Orders>
+    public interface IOrderRepository : IGenericRepository<Orders>
     {
     }
 }

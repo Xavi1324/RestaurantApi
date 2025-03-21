@@ -2,7 +2,7 @@
 
 namespace Restaurant.Core.Application.Interfaces.IRepositories.Dish
 {
-    public interface IDishesServices : IGenericRepository<Dishes>
+    public interface IDishesRepository : IGenericRepository<Dishes>
     {
 
     }
